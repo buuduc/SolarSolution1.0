@@ -1,0 +1,419 @@
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\SolarSolution.exe.config
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\SolarSolution.exe
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\SolarSolution.pdb
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Charts.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.CodeParser.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Data.Desktop.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Data.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Mvvm.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Office.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Pdf.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.PivotGrid.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Printing.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.RichEdit.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.RichEdit.v20.2.Export.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Sparkline.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Utils.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Core.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Docking.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Grid.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Grid.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Layout.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.LayoutControl.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Printing.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Ribbon.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraCharts.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraEditors.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraGauges.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraPrinting.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraReports.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\EPPlus.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\MaterialDesignColors.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\System.ComponentModel.Annotations.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Pdf.v20.2.Drawing.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.DataVisualization.v20.2.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraBars.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraLayout.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraTreeList.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpo.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.DataAccess.v20.2.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Data.Desktop.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Data.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Mvvm.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Office.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Pdf.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.PivotGrid.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Printing.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.RichEdit.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Sparkline.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Utils.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Core.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Docking.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Grid.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Grid.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Layout.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.LayoutControl.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Printing.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Ribbon.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraCharts.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraEditors.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraGauges.v20.2.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraPrinting.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraReports.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\EPPlus.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\MaterialDesignColors.pdb
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Pdf.v20.2.Drawing.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraBars.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraLayout.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraTreeList.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpo.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\DevExpress.DataAccess.v20.2.xml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Data.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Data.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Data.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Data.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Office.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Printing.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Printing.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Printing.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Printing.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Utils.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Utils.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Utils.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Utils.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Printing.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Printing.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Printing.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Printing.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraCharts.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraCharts.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraCharts.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraCharts.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraEditors.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraEditors.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraEditors.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraEditors.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraReports.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraReports.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraReports.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraReports.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraBars.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraBars.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraBars.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraBars.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraLayout.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraLayout.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraLayout.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraLayout.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpo.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpo.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpo.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpo.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.DataAccess.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.DataAccess.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.DataAccess.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.DataAccess.v20.2.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.csprojAssemblyReference.cache
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\MainWindow.g.cs
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\PrtFrm.g.cs
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\App.g.cs
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution_MarkupCompile.cache
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution_MarkupCompile.lref
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\App.baml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\MainWindow.baml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\PrtFrm.baml
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.g.resources
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.Properties.Resources.resources
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.ReportDE.resources
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.csproj.GenerateResource.cache
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.exe.licenses
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.csproj.CoreCompileInputs.cache
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.csproj.CopyComplete
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.exe
+D:\OneDrive - poxz\User\ADMIN\Desktop\SolarSolution\SolarSolution\obj\Debug\SolarSolution.pdb
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\SolarSolution.exe.config
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\SolarSolution.exe
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\SolarSolution.pdb
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Charts.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.CodeParser.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Data.Desktop.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Data.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Mvvm.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Office.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Pdf.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.PivotGrid.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Printing.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.RichEdit.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.RichEdit.v20.2.Export.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Sparkline.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Utils.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Core.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Docking.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Grid.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Grid.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Layout.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.LayoutControl.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Printing.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Ribbon.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraCharts.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraEditors.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraGauges.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraPrinting.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraReports.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\EPPlus.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\MaterialDesignColors.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.ComponentModel.Annotations.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Pdf.v20.2.Drawing.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.DataVisualization.v20.2.Core.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraBars.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraLayout.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraTreeList.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpo.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.DataAccess.v20.2.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Data.Desktop.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Data.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Mvvm.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Office.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Pdf.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.PivotGrid.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Printing.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.RichEdit.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Sparkline.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Utils.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Core.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Docking.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Grid.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Grid.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Layout.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.LayoutControl.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Printing.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpf.Ribbon.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraCharts.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraEditors.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraGauges.v20.2.Core.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraPrinting.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraReports.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\EPPlus.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\MaterialDesignColors.pdb
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Pdf.v20.2.Drawing.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraBars.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraLayout.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.XtraTreeList.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.Xpo.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\DevExpress.DataAccess.v20.2.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Data.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Data.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Data.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Data.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Office.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Printing.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Printing.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Printing.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Printing.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Utils.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Utils.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Utils.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Utils.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Core.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Docking.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Grid.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Printing.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Printing.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Printing.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Printing.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpf.Ribbon.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraCharts.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraCharts.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraCharts.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraCharts.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraEditors.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraEditors.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraEditors.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraEditors.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraReports.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraReports.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraReports.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraReports.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraBars.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraBars.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraBars.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraBars.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraLayout.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraLayout.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraLayout.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraLayout.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.Xpo.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.Xpo.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.Xpo.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.Xpo.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\DevExpress.DataAccess.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\es\DevExpress.DataAccess.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ja\DevExpress.DataAccess.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ru\DevExpress.DataAccess.v20.2.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.csprojAssemblyReference.cache
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\MainWindow.g.cs
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\App.g.cs
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution_MarkupCompile.cache
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution_MarkupCompile.lref
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\App.baml
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\MainWindow.baml
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.g.resources
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.Properties.Resources.resources
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.ReportDE.resources
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.csproj.GenerateResource.cache
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.exe.licenses
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.csproj.CoreCompileInputs.cache
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.csproj.CopyComplete
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.exe
+D:\GitHub\SolarSolution\SolarSolution\obj\Debug\SolarSolution.pdb
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ControlzEx.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\MahApps.Metro.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ControlzEx.pdb
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ControlzEx.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\MahApps.Metro.pdb
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\MahApps.Metro.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\de\MahApps.Metro.resources.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\Microsoft.CSharp.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\PresentationCore.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\PresentationFramework.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\ReachFramework.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Configuration.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Data.DataSetExtensions.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Data.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Data.Linq.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Drawing.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Net.Http.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Printing.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Security.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.ServiceModel.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Threading.Tasks.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Web.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Web.Extensions.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Windows.Forms.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Xaml.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Xml.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\System.Xml.Linq.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\UIAutomationProvider.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\UIAutomationTypes.dll
+D:\GitHub\SolarSolution\SolarSolution\bin\Debug\WindowsBase.dll
