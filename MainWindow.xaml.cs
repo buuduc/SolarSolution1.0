@@ -83,75 +83,104 @@ namespace SolarSolution
 
         private void ReadDataExcel(int index)
         {
-            rankE = null;
-            soGioNangHashtable.Clear();
-            rankE = new SortedList<object, rankElectricWork>();
-
-            string path = @Properties.Settings.Default.pathDataExcel;
-            using (ExcelPackage MaNS =
-                new ExcelPackage(new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)))
+            try
             {
-                ExcelWorksheet workSheet = MaNS.Workbook.Worksheets[0];
+                rankE = null;
+                soGioNangHashtable.Clear();
+                rankE = new SortedList<object, rankElectricWork>();
 
-                for (int i = workSheet.Dimension.Start.Row + 1; i <= workSheet.Dimension.End.Row; i++)
+                string path = @Properties.Settings.Default.pathDataExcel;
+                using (ExcelPackage MaNS =
+                    new ExcelPackage(new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)))
                 {
-                    soGioNangHashtable.Add(workSheet.Cells[i, 2].Value, workSheet.Cells[i, 3].Value);
-                }
+                    ExcelWorksheet workSheet = MaNS.Workbook.Worksheets[0];
+
+                    for (int i = workSheet.Dimension.Start.Row + 1; i <= workSheet.Dimension.End.Row; i++)
+                    {
+                        soGioNangHashtable.Add(workSheet.Cells[i, 2].Value, workSheet.Cells[i, 3].Value);
+                    }
 
 
-                workSheet = MaNS.Workbook.Worksheets[index];
-                switch (index)
-                {
-                    case 1:
-                        {
+                    workSheet = MaNS.Workbook.Worksheets[index];
+                    switch (index)
+                    {
+                        case 1:
+                            {
+                                for (int i = workSheet.Dimension.Start.Row + 1; i <= workSheet.Dimension.End.Row; i++)
+                                {
+                                    rankElectricWork E = new rankElectricWork();
+                                    E.Price = (double)workSheet.Cells[i, 2].Value;
+                                    E.quantityAllowed = (double)workSheet.Cells[i, 3].Value;
+                                    rankE.Add(workSheet.Cells[i, 1].Value, E);
+
+                                    // rankElectricWorkPrice.Add(, );
+                                    // rankElectricWorkCount.Add(workSheet.Cells[i, 1].Value, );
+                                    normalConsume = new NormalConsume()
+                                    {
+                                        rankElectricWorkList = rankE
+                                    };
+                                }
+                                break;
+
+                            }
+                        default:
                             for (int i = workSheet.Dimension.Start.Row + 1; i <= workSheet.Dimension.End.Row; i++)
                             {
                                 rankElectricWork E = new rankElectricWork();
                                 E.Price = (double)workSheet.Cells[i, 2].Value;
-                                E.quantityAllowed = (double)workSheet.Cells[i, 3].Value;
                                 rankE.Add(workSheet.Cells[i, 1].Value, E);
-
                                 // rankElectricWorkPrice.Add(, );
                                 // rankElectricWorkCount.Add(workSheet.Cells[i, 1].Value, );
-                                normalConsume = new NormalConsume(5000000)
+                                normalConsume = new NormalConsume()
                                 {
                                     rankElectricWorkList = rankE
                                 };
                             }
                             break;
 
-                        }
-                    default:
-                        for (int i = workSheet.Dimension.Start.Row + 1; i <= workSheet.Dimension.End.Row; i++)
-                        {
-                            rankElectricWork E = new rankElectricWork();
-                            E.Price = (double)workSheet.Cells[i, 2].Value;
-                            rankE.Add(workSheet.Cells[i, 1].Value, E);
-                            // rankElectricWorkPrice.Add(, );
-                            // rankElectricWorkCount.Add(workSheet.Cells[i, 1].Value, );
-                            normalConsume = new NormalConsume(2000, 2100, 2200)
-                            {
-                                rankElectricWorkList = rankE
-                            };
-                        }
-                        break;
+
+                    }
+                    // normalConsume = new NormalConsume(700, 3100, 1000)
+                    // normalConsume = new NormalConsume(5000000)
+                    // {
+                    //     rankElectricWorkList = rankE
+                    // };
+
 
 
                 }
-                // normalConsume = new NormalConsume(700, 3100, 1000)
-                // normalConsume = new NormalConsume(5000000)
-                // {
-                //     rankElectricWorkList = rankE
-                // };
 
-
-
+                khuvucComboBox.ItemsSource = soGioNangHashtable.Keys;
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                throw;
 
-            khuvucComboBox.ItemsSource = soGioNangHashtable.Keys;
+                
+            }
+            
 
         }
+        private void pullData()
+        {
+            switch (DienKinhDoanh)
+            {
+                case "Hộ gia đình":
+                    {
+                        normalConsume.consumeMonth = Double.Parse(thapdiemtxt.Text);
+                        break;
+                    }
+                default:
+                    { 
+                        normalConsume.Acaodiem= Double.Parse(caodiemtxt.Text);
+                        normalConsume.Atrungbinh = Double.Parse(trungbinhtxt.Text);
+                        normalConsume.Athapdiem= Double.Parse(thapdiemtxt.Text);
+                        break; 
+                    }
 
+            }
+        }
         private void ExistBtn(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();
@@ -167,6 +196,7 @@ namespace SolarSolution
             {
                 case "Hộ gia đình":
                     {
+                        HideShowGroupControl(false);
                         ReadDataExcel(1);
                         RankTable.RowGroups.Clear();
 
@@ -192,6 +222,7 @@ namespace SolarSolution
                     }
                 case "Diện kinh doanh":
                     {
+                        HideShowGroupControl(true);
                         ReadDataExcel(2);
                         RankTable.RowGroups.Clear();
 
@@ -215,6 +246,7 @@ namespace SolarSolution
                     }
                 case "Diện sản xuất":
                     {
+                        HideShowGroupControl(true);
                         ReadDataExcel(3);
                         RankTable.RowGroups.Clear();
 
@@ -289,30 +321,79 @@ namespace SolarSolution
 
         private void XemBaoCaoBtn_Click(object sender, RoutedEventArgs e)
         {
-            normalConsume.Loaded();
-            ReportDE reportDe = new ReportDE();
+            try
+            {
+                pullData();
+
+
+
+
+                normalConsume.Loaded();
+                ReportDE reportDe = new ReportDE();
+
+
+                //solarCal = new SolarCal(50, 4.1, 800000000, 1969);
+                solarCal = new SolarCal(double.Parse(SoKWpLapDatTextBox.Text), double.Parse(SogioNangTxt.Text), double.Parse(kinhphitxt.Text), double.Parse(giabantxt.Text));
+                solarCal.savedMoney(normalConsume);
+                solarCal.DoanhThu(Int32.Parse(tuoithotxt.Text), double.Parse(tanggiatxt.Text), double.Parse(suygiamcongsuat1txt.Text), double.Parse(suygiamcongsuattxt.Text));
+                reportDe.tenkhachhang = TenKhachHangtxt.Text;
+                reportDe.diachi = DiaChiTxt.Text;
+                reportDe.dienkinhdoanh = DienKinhDoanh;
+                reportDe.NormalConsume = normalConsume;
+
+                reportDe.SolarCal = solarCal;
+                reportDe.InitData();
+                reportDe.CreateDocument();
+                //DocumentPreviewControl.DocumentSource = reportDe;
+
+
+
+                reportDe.ShowPreview();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                
+                throw;
+            }
             
-
-            solarCal = new SolarCal(50, 4.1, 800000000, 1969);
-            solarCal.savedMoney(normalConsume);
-            solarCal.DoanhThu(25, 3, 3, 0.7);
-            reportDe.tenkhachhang = TenKhachHangtxt.Text;
-            reportDe.diachi = DiaChiTxt.Text;
-            reportDe.dienkinhdoanh = DienKinhDoanh;
-            reportDe.NormalConsume = normalConsume;
- 
-            reportDe.SolarCal = solarCal;
-            reportDe.InitData();
-            reportDe.CreateDocument();
-            //DocumentPreviewControl.DocumentSource = reportDe;
-
-           
-
-            reportDe.ShowPreview();
 
 
         }
+        private void HideShowGroupControl(bool c)
+        {
+            switch (c)
+            {
+                case true:
+                    {
+                        thapdiemlb.Text = "Thấp điểm:";
+                        VNDtxt1.Text = "KWh";
+                        
+                        trungbinhlb.Visibility = Visibility.Visible;
+                        Caodiemlb.Visibility = Visibility.Visible;
+                        trungbinhtxt.Visibility = Visibility.Visible;
+                        caodiemtxt.Visibility = Visibility.Visible;
+                        VNDtxt2.Visibility = Visibility.Visible;
+                        VNDtxt3.Visibility = Visibility.Visible;
 
+
+                        break;
+                    }
+                case false:
+                    {
+                        thapdiemlb.Text = "Số tiền:";
+                        VNDtxt1.Text = "VNĐ";
+                        trungbinhlb.Visibility = Visibility.Hidden;
+                        Caodiemlb.Visibility = Visibility.Hidden;
+                        trungbinhtxt.Visibility = Visibility.Hidden;
+                        caodiemtxt.Visibility = Visibility.Hidden;
+                        VNDtxt2.Visibility = Visibility.Hidden;
+                        VNDtxt3.Visibility = Visibility.Hidden;
+                        break;
+                    }
+            }
+                
+        }
         private void ContactBtn(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://marshouse.vn/contact/");
@@ -327,6 +408,8 @@ namespace SolarSolution
         {
             System.Diagnostics.Process.Start(@Properties.Settings.Default.pathDataExcel);
         }
+
+        
     }
 
 }

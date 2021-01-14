@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="pathDataExcel" Type="System.String" Scope="User">
-      <Value Profile="(Default)">D:\TEMP\DataAppSolar\Data.xlsx</Value>
+      <Value Profile="(Default)">\\192.168.1.19\Marshouse\AppMarsHouse\Data.xlsx</Value>
     </Setting>
   </Settings>
 </SettingsFile>

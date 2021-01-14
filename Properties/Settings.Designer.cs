@@ -25,7 +25,7 @@ namespace SolarSolution.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\TEMP\\DataAppSolar\\Data.xlsx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\\\192.168.1.19\\Marshouse\\AppMarsHouse\\Data.xlsx")]
         public string pathDataExcel {
             get {
                 return ((string)(this["pathDataExcel"]));

@@ -4,6 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
         xmlns:local="clr-namespace:SolarSolution"
         xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
         xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing"
@@ -18,11 +25,7 @@
                 </ComboBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="20 0">
-<<<<<<< HEAD
 
-=======
-                
->>>>>>> 3eb90c8f1ca469d750b64b727a2f935f599a94c8
                 <Button Content="CONTACT" Click="ContactBtn" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
                 <Button Content="MARSHOUSE" Click="marshousebtn" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
                 <Button Content="DATA" Click="databtn" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center"/>
@@ -31,7 +34,7 @@
                 </Button>
             </StackPanel>
         </Grid>
-        <TabControl x:Name="TabControlGeneral" TabStripPlacement="Top" HorizontalAlignment="Stretch" Height="480" SelectionChanged="TabSelectionChanged">
+        <TabControl x:Name="TabControlGeneral" TabStripPlacement="Top" HorizontalAlignment="Stretch" Height="480" SelectionChanged="TabSelectionChanged" Margin="2,0,-2,0">
             <TabControl.Resources>
                 <Style TargetType="{x:Type TabItem}">
                     <Setter Property="Template">
@@ -71,15 +74,14 @@
                             <Border Grid.Column="0" Background="{Binding Foreground, RelativeSource={RelativeSource AncestorType={x:Type TabItem}}}">
                                 <!-- <Image Height="32" Grid.Column="0" Source="D:\GitHub\SolarSolution\SolarSolution\Pictures\cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" /> -->
                             </Border>
-                            <TextBlock Margin="5,0,0,0"  Text="Bắt đầu" FontWeight="Bold" Grid.Column="1"  VerticalAlignment="Center"
+                            <TextBlock Margin="5,0,0,0"  Text="Bắt đầu" Grid.Column="1"  VerticalAlignment="Center"
                                    FontSize="20"  Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType={x:Type TabItem}}}" />
                         </Grid>
                     </DataTemplate>
                 </TabItem.HeaderTemplate>
                 <Grid>
-                    <Image  Source="/Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="217" Width="315" VerticalAlignment="Top" Margin="25,60,718,0"/>
-
-                    <TextBlock HorizontalAlignment="Left" Margin="385,52,0,0" TextWrapping="Wrap" Text="PHẦN MỀM TÍNH TOÁN HIỆU QUẢ LẮP ĐẶT NĂNG LƯỢNG MẶT TRỜI "  TextAlignment="Center" VerticalAlignment="Top" Height="164" Width="562" FontSize="40" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                    <Image  Source="/Pictures/sunene.jpg" Stretch="Fill" RenderTransformOrigin="-0.555,0.555" Height="443" VerticalAlignment="Top" Margin="-4,-11,0,-12" HorizontalAlignment="Left" Width="573"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="586,106,0,0" Foreground="#FFFF5D00" TextWrapping="Wrap" Text="PHẦN MỀM TÍNH TOÁN HIỆU QUẢ LẮP ĐẶT NĂNG LƯỢNG MẶT TRỜI "  TextAlignment="Center" VerticalAlignment="Top" Height="236" Width="456" FontSize="30" FontWeight="Bold"/>
 
                 </Grid>
             </TabItem>
@@ -103,34 +105,34 @@
                 <Grid>
 
 
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="203" Margin="389,207,0,0" Stroke="Black" VerticalAlignment="Top" Width="244"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="389,207,0,0" TextWrapping="Wrap" Text="Bạn là ? "  TextAlignment="Center" VerticalAlignment="Top" Height="44" Width="139" FontSize="30" FontWeight="Bold"/>
-                    <StackPanel Margin="389,251,423,30">
-                        <RadioButton Margin="10,0,0,0" Content="Hộ gia đình"  Checked="RadioButton_Checked" FontSize="25" Height="44" />
-                        <RadioButton Content="Diện kinh doanh" Checked="RadioButton_Checked" FontSize="25" Margin="10,0,0,0" Height="41"/>
-                        <RadioButton Content="Diện sản xuất" Checked="RadioButton_Checked" FontSize="25" Margin="10,0,0,0" Height="40"/>
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="214" Margin="279,196,0,0" Stroke="Black" VerticalAlignment="Top" Width="257"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="292,219,0,0" TextWrapping="Wrap" Text="DIỆN KHÁCH HÀNG "  TextAlignment="Center" VerticalAlignment="Top" Height="44" Width="233" FontSize="20" FontWeight="Bold" Foreground="#FFFF5100"/>
+                    <StackPanel Margin="292,258,520,23">
+                        <RadioButton Margin="10,0,0,0" Content="Hộ gia đình"  Checked="RadioButton_Checked" FontSize="25" Height="44" Background="#FF2254FF" BorderBrush="#FF22D7FF" Foreground="#FF00A2FF" />
+                        <RadioButton Content="Diện kinh doanh" Checked="RadioButton_Checked" FontSize="25" Margin="10,0,0,0" Height="41" Foreground="#FF008BFF"/>
+                        <RadioButton Content="Diện sản xuất" Checked="RadioButton_Checked" FontSize="25" Margin="10,0,0,0" Height="40" Foreground="#FF0074FF"/>
 
                     </StackPanel>
-                    <FlowDocumentScrollViewer BorderBrush="Black" BorderThickness="1" HorizontalScrollBarVisibility="Auto" Margin="700,207,34,10" RenderTransformOrigin="0.512,0.749">
+                    <FlowDocumentScrollViewer BorderBrush="Black" BorderThickness="1" HorizontalScrollBarVisibility="Auto" Margin="583,199,21,10" RenderTransformOrigin="0.512,0.749" Foreground="#FFFF5100">
 
                         <FlowDocument >
                             <Paragraph TextAlignment="Center">
-                                <Bold FontSize="15">
+                                <Bold FontSize="20" FontFamily="Ar">
                                     <Run Text="GIÁ BÁN ĐIỆN CỦA EVN"/>
                                 </Bold>
                             </Paragraph>
 
-                            <Table x:Name="RankTable" BorderBrush="Black" BorderThickness="1" CellSpacing="1"/>
+                            <Table x:Name="RankTable" BorderBrush="Black" BorderThickness="1" FontFamily="Arial" CellSpacing="1"/>
 
                         </FlowDocument>
                     </FlowDocumentScrollViewer>
-                    <Image  Source="/Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="217" Width="315" VerticalAlignment="Top" Margin="25,60,718,0"/>
+                    <Image  Source="/Pictures/customer.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="279" VerticalAlignment="Top" Margin="10,131,782,0"/>
 
-                    <TextBlock HorizontalAlignment="Left" Margin="368,54,0,0" TextWrapping="Wrap" Text="Tên khách hàng:"  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="269" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.558,0.58"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="460,109,0,0" TextWrapping="Wrap" Text="Địa chỉ:  "  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="207" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.657,0.44"/>
-                    
-                    <dxe:TextEdit x:Name="TenKhachHangtxt" HorizontalAlignment="Left" Margin="642,59,0,0" VerticalAlignment="Top" Width="380" Height="50" FontSize="30"/>
-                    <dxe:TextEdit x:Name="DiaChiTxt" HorizontalAlignment="Left" Margin="642,109,0,0" VerticalAlignment="Top" Width="380" Height="50" FontSize="30"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="78,23,0,0" TextWrapping="Wrap" Text="Tên khách hàng:"  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="269" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.558,0.58" Foreground="#FF5F6D9E"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="54,81,0,0" TextWrapping="Wrap" Text="Địa chỉ:  "  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="207" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.657,0.44" Foreground="#FF5F6D9E"/>
+
+                    <TextBox x:Name="TenKhachHangtxt" Foreground="Black" HorizontalAlignment="Left" Margin="382,17,0,0" VerticalAlignment="Top" Width="380" Height="58" FontSize="25"/>
+                    <TextBox x:Name="DiaChiTxt" HorizontalAlignment="Left" Foreground="Black" Margin="382,75,0,0" VerticalAlignment="Top" Width="653" Height="56" FontSize="25"/>
 
 
                 </Grid>
@@ -151,12 +153,21 @@
                         </Grid>
                     </DataTemplate>
                 </TabItem.HeaderTemplate>
-                <Grid>
+                <Grid Height="420" VerticalAlignment="Top">
 
-                    <TextBlock HorizontalAlignment="Left" Margin="488,24,0,0" TextWrapping="Wrap" Text="NHẬP HÓA ĐƠN ĐIỆN PHẢI TRẢ HÀNG THÁNG"  TextAlignment="Center" VerticalAlignment="Top" Height="115" Width="432" FontSize="30" FontWeight="Bold"/>
-                    <Image  Source="/Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="217" Width="315" VerticalAlignment="Top" Margin="25,60,718,0"/>
-                    <dxe:TextEdit Margin="488,144,219,202" RenderTransformOrigin="0.177,0.351" FontSize="30"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="890,168,0,0" TextWrapping="Wrap" Text="VNĐ"  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="87" FontSize="30" FontWeight="Bold"/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="95,25,0,0" TextWrapping="Wrap" Text="NHẬP HÓA ĐƠN ĐIỆN PHẢI TRẢ HÀNG THÁNG"  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="851" FontSize="30" FontWeight="Bold"/>
+
+                    <TextBlock x:Name="VNDtxt1" HorizontalAlignment="Left" Margin="939,185,0,0" TextWrapping="Wrap" Text="KWh"  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="87" FontSize="30" FontWeight="Bold"/>
+                    <TextBox x:Name="thapdiemtxt" HorizontalAlignment="Left" Foreground="Black" Height="50" Margin="674,175,0,0" TextAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="258" FontSize="30"/>
+                    <TextBlock  x:Name="VNDtxt2" HorizontalAlignment="Left" Margin="939,240,0,0" TextWrapping="Wrap" Text="KWh"  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="87" FontSize="30" FontWeight="Bold"/>
+                    <TextBox x:Name="trungbinhtxt" HorizontalAlignment="Left" Height="50" Margin="674,231,0,0" TextWrapping="Wrap" Foreground="Black" TextAlignment="Center" VerticalAlignment="Top" Width="258" FontSize="30" />
+                    <TextBlock  x:Name="VNDtxt3" HorizontalAlignment="Left" Margin="939,298,0,0" TextWrapping="Wrap" Text="KWh"  TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="87" FontSize="30" FontWeight="Bold"/>
+                    <TextBox x:Name="caodiemtxt" HorizontalAlignment="Left" Height="50" Margin="675,290,0,0" TextWrapping="Wrap" Foreground="Black" TextAlignment="Center"  VerticalAlignment="Top" Width="258" FontSize="30"/>
+                    <TextBlock x:Name="thapdiemlb" HorizontalAlignment="Left" Margin="460,182,0,0" TextWrapping="Wrap" Text="Thấp điểm:"  TextAlignment="Center" VerticalAlignment="Top" Height="35" Width="192" FontSize="30" FontWeight="Bold"/>
+                    <TextBlock x:Name="trungbinhlb" HorizontalAlignment="Left" Margin="460,237,0,0" TextWrapping="Wrap" Text="Trung bình:"  TextAlignment="Center" VerticalAlignment="Top" Height="35" Width="192" FontSize="30" FontWeight="Bold"/>
+                    <TextBlock x:Name="Caodiemlb" HorizontalAlignment="Left" Margin="462,298,0,0" TextWrapping="Wrap" Text="Cao điểm  :"  TextAlignment="Center" VerticalAlignment="Top" Height="35" Width="192" FontSize="30" FontWeight="Bold"/>
+                    <Image  Source="/Pictures/sunlight.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="283" VerticalAlignment="Top" Margin="19,127,580,0"/>
 
 
                 </Grid>
@@ -178,18 +189,18 @@
                     </DataTemplate>
                 </TabItem.HeaderTemplate>
                 <Grid>
-                    <Image  Source="/Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="217" Width="315" VerticalAlignment="Top" Margin="25,60,718,0"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="322,96,0,0" TextWrapping="Wrap" Text="NHẬP SỐ KWp LẮP ĐẶT"  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="349" FontSize="30" FontWeight="Bold"/>
-                    <dxe:TextEdit x:Name="SoKWpLapDatTextBox"  Text="{Binding testthu, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"  Margin="710,78,163,292" RenderTransformOrigin="0.177,0.351" FontSize="30"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="936,78,0,0" TextWrapping="Wrap" Text="KWp"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="86" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="322,161,0,0" TextWrapping="Wrap" Text="KINH PHÍ LẮP ĐẶT"  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="349" FontSize="30" FontWeight="Bold"/>
-                    <dxe:TextEdit Margin="710,161,163,209" RenderTransformOrigin="0.177,0.351" FontSize="30"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="935,161,0,0" TextWrapping="Wrap" Text="VNĐ"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="87" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="322,258,0,0" TextWrapping="Wrap" Text="KHU VỰC LẮP ĐẶT"  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="349" FontSize="30" FontWeight="Bold"/>
-                    <ComboBox BorderBrush="Red" BorderThickness="1" SelectionChanged="khuvuctxtbox_Changed" x:Name="khuvucComboBox" Margin="710,248,163,116" FontSize="30" Height="56" HorizontalContentAlignment="Center"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="284,327,0,-22" TextWrapping="Wrap" Text="SỐ GIỜ NẮNG KHU VỰC: "  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="387" FontSize="30" FontWeight="Bold"/>
-                    <TextBlock x:Name="SogioNangTxt" HorizontalAlignment="Left" Margin="710,327,0,0" TextWrapping="Wrap" Text="0: "  TextAlignment="Right" VerticalAlignment="Top" Height="55" Width="183" FontSize="30" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="913,327,0,-22" TextWrapping="Wrap" Text="GIỜ "  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="94" FontSize="30" FontWeight="Bold"/>
+                    <Image  Source="/Pictures/sang_som.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="400" VerticalAlignment="Top" Margin="13,10,586,0"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="331,74,0,0" TextWrapping="Wrap" Text="NHẬP SỐ KWp LẮP ĐẶT"  TextAlignment="Right" VerticalAlignment="Top" Height="55" Width="349" FontSize="25" FontWeight="Bold"/>
+                    <TextBox x:Name="SoKWpLapDatTextBox" Foreground="Black" Text="{Binding testthu, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"  Margin="710,70,163,309" RenderTransformOrigin="0.177,0.351" FontSize="25"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="936,75,0,0" TextWrapping="Wrap" Text="KWp"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="86" FontSize="25" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="395,134,0,0" TextWrapping="Wrap" Text="KINH PHÍ LẮP ĐẶT"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="284" FontSize="25" FontWeight="Bold"/>
+                    <TextBox x:Name="kinhphitxt" Foreground="Black" Margin="710,129,163,250" RenderTransformOrigin="0.177,0.351" FontSize="25"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="935,141,0,0" TextWrapping="Wrap" Text="VNĐ"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="87" FontSize="25" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="405,189,0,0" TextWrapping="Wrap" Text="KHU VỰC LẮP ĐẶT"  TextAlignment="Right" VerticalAlignment="Top" Height="46" Width="274" FontSize="25" FontWeight="Bold"/>
+                    <ComboBox BorderBrush="Red" BorderThickness="1" SelectionChanged="khuvuctxtbox_Changed" x:Name="khuvucComboBox" Margin="710,184,163,193" FontSize="25" Height="43" HorizontalContentAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="307,251,0,0" TextWrapping="Wrap" Text="SỐ GIỜ NẮNG KHU VỰC: "  TextAlignment="Right" VerticalAlignment="Top" Height="40" Width="387" FontSize="25" FontWeight="Bold"/>
+                    <TextBlock x:Name="SogioNangTxt" HorizontalAlignment="Left" Foreground="Black" Margin="710,250,0,0" TextWrapping="Wrap" Text="0: "  TextAlignment="Right" VerticalAlignment="Top" Height="55" Width="183" FontSize="25" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="925,249,0,0" TextWrapping="Wrap" Text="GIỜ "  TextAlignment="Right" VerticalAlignment="Top" Height="33" Width="94" FontSize="25" FontWeight="Bold"/>
 
                 </Grid>
             </TabItem>
@@ -211,21 +222,21 @@
                 </TabItem.HeaderTemplate>
                 <Grid>
 
-                    <TextBlock HorizontalAlignment="Left" Margin="339,91,0,0" TextWrapping="Wrap" Text="NHẬP GIÁ BÁN ĐIỆN"  TextAlignment="Right" VerticalAlignment="Top" Height="70" Width="349" FontSize="30" FontWeight="Bold"/>
-                    <Image  Source="/Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="217" Width="315" VerticalAlignment="Top" Margin="25,60,718,0"/>
-                    <dxe:TextEdit  Text="1940"  Margin="728,86,125,284" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="936,95,0,0" TextWrapping="Wrap" Text="KWp"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="86" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="344,161,0,0" TextWrapping="Wrap" Text="Giả định tốc độ tăng giá"  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="350" FontSize="30" FontWeight="Bold"/>
-                    <dxe:TextEdit Text="3" Margin="728,161,125,209" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="355,97,0,0" TextWrapping="Wrap" Text="GIÁ MUA ĐIỆN CỦA EVN:"  TextAlignment="Right" VerticalAlignment="Top" Height="70" Width="349" FontSize="25" FontWeight="Bold"/>
+                    <Image  Source="/Pictures/sang_som.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="400" VerticalAlignment="Top" Margin="13,10,586,0"/>
+                    <TextBox  x:Name="giabantxt" Text="1940" Foreground="Black" Margin="728,86,125,284" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="936,95,0,0" TextWrapping="Wrap"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="86" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="354,173,0,0" TextWrapping="Wrap" Text="GIẢ ĐỊNH TỐC ĐỘ TĂNG GIÁ:"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="350" FontSize="25" FontWeight="Bold"/>
+                    <TextBox  x:Name="tanggiatxt" Text="3" Foreground="Black" Margin="728,161,125,209" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
                     <TextBlock HorizontalAlignment="Left" Margin="936,170,0,0" TextWrapping="Wrap" Text="%/năm"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="104" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="356,244,0,0" TextWrapping="Wrap" Text="Suy giảm công suất năm đầu tiên"  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="350" FontSize="30" FontWeight="Bold"/>
-                    <dxe:TextEdit Text="3" Margin="728,244,125,126" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="338,327,0,-22" TextWrapping="Wrap" Text="Suy giảm công suất các năm sau"  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="350" FontSize="30" FontWeight="Bold"/>
-                    <dxe:TextEdit Text="0.7" Margin="728,327,125,43" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="356,226,0,0" TextWrapping="Wrap" Text="SUY GIẢM CÔNG SUẤT NĂM ĐẦU TIÊN:"  TextAlignment="Right" VerticalAlignment="Top" Height="83" Width="350" FontSize="25" FontWeight="Bold"/>
+                    <TextBox  x:Name="suygiamcongsuat1txt" Text="3" Foreground="Black" Margin="728,244,125,126" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="354,309,0,-4" TextWrapping="Wrap" Text="SUY GIẢM CÔNG SUẤT CÁC NĂM SAU:"  TextAlignment="Right" VerticalAlignment="Top" Height="115" Width="350" FontSize="25" FontWeight="Bold"/>
+                    <TextBox  x:Name="suygiamcongsuattxt" Text="0.7" Foreground="Black" Margin="728,327,125,43" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
                     <TextBlock HorizontalAlignment="Left" Margin="936,253,0,0" TextWrapping="Wrap" Text="%/năm"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="104" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
                     <TextBlock HorizontalAlignment="Left" Margin="936,336,0,0" TextWrapping="Wrap" Text="%/năm"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="104" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="338,31,0,0" TextWrapping="Wrap" Text="TUỔI THỌ PIN"  TextAlignment="Right" VerticalAlignment="Top" Height="59" Width="350" FontSize="30" FontWeight="Bold"/>
-                    <dxe:TextEdit  Text="35"  Margin="728,22,125,348" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="352,31,0,0" TextWrapping="Wrap"  Text="TUỔI THỌ PIN:"  TextAlignment="Right" VerticalAlignment="Top" Height="59" Width="350" FontSize="25" FontWeight="Bold"/>
+                    <TextBox  x:Name="tuoithotxt" Foreground="Black" Text="35"  Margin="728,22,125,348" RenderTransformOrigin="0.177,0.351" FontSize="30" HorizontalContentAlignment="Center" />
                     <TextBlock HorizontalAlignment="Left" Margin="936,31,0,0" TextWrapping="Wrap" Text="Năm"  TextAlignment="Right" VerticalAlignment="Top" Height="50" Width="86" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
 
                 </Grid>
@@ -247,11 +258,249 @@
                     </DataTemplate>
                 </TabItem.HeaderTemplate>
                 <Grid>
-                    <Image  Source="D:\GitHub\SolarSolution\SolarSolution\Pictures\ANHNLMT.jpg" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="328" VerticalAlignment="Top" Margin="25,60,500,0"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="601,70,0,0" TextWrapping="Wrap"  TextAlignment="Center" VerticalAlignment="Top" Height="48" Width="403" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32" Text="Dữ liệu đã được xử lý xong !                             "/>
-                    <TextBlock HorizontalAlignment="Left" Margin="580,195,0,0" TextWrapping="Wrap" Text="Nhấp vào nút bên dưới để xem kết quả"  TextAlignment="Center" VerticalAlignment="Top" Height="84" Width="424" FontSize="30" FontWeight="Bold" RenderTransformOrigin="2.299,-1.32"/>
+                    <materialDesign:Card Margin="28,40,816,63">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+                                    Height="140" />
+                                <RowDefinition
+                                    Height="*" />
+                                <RowDefinition
+                                    Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Image
+                                Source="Pictures/Logo Doctor House khong nen.png"
+                                Height="140"
+                                Width="196"
+                                Stretch="UniformToFill" />
+                            <Button
+                                Grid.Row="0"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                                Background="White"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom"
+                                Margin="0 0 16 -20">
+                                <Image Source="Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" />
 
-                    <Button x:Name="XemBaoCaoBtn" FontSize="30" Margin="690,314,158,50" Content="Xem báo cáo" Click="XemBaoCaoBtn_Click" Height="Auto"/>
+                            </Button>
+                            <StackPanel
+                                Grid.Row="1"
+                                Margin="8 24 8 0">
+                                <TextBlock
+                                    FontWeight="Bold"><Run Text="Doctor House"/></TextBlock>
+                                <TextBlock
+                                   
+                                    TextWrapping="Wrap"
+                                    VerticalAlignment="Center" Height="61" HorizontalAlignment="Center" Width="196"><Run Text="Doctor House hoạt động trong lĩnh vực thiết kế, thi công hệ thống cơ điện tại các công trình dân dụng và công nghiệp."/></TextBlock>
+                            </StackPanel>
+                            <StackPanel
+                                HorizontalAlignment="Right"
+                                Grid.Row="2"
+                                Orientation="Horizontal"
+                                Margin="8">
+                                <Button
+                                    Style="{StaticResource MaterialDesignToolButton}"
+                                    Width="30"
+                                    Padding="2 0 2 0"
+                                    materialDesign:RippleAssist.IsCentered="True">
+                                    <materialDesign:PackIcon
+                                        Kind="ShareVariant" />
+                                </Button>
+                                <Button
+                                    Style="{StaticResource MaterialDesignToolButton}"
+                                    Width="30"
+                                    Padding="2 0 2 0"
+                                    materialDesign:RippleAssist.IsCentered="True">
+                                    <materialDesign:PackIcon
+                                        Kind="Heart" />
+                                </Button>
+
+                            </StackPanel>
+                        </Grid>
+                    </materialDesign:Card>
+                    <materialDesign:Card Margin="536,40,306,63">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+                                    Height="140" />
+                                <RowDefinition
+                                    Height="*" />
+                                <RowDefinition
+                                    Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Image
+                                Source="Pictures/leehouse - Official.png"
+                                Width="196"
+                                Stretch="Fill" Margin="10,10,8,0" />
+                            <Button
+                                Grid.Row="0"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                                Background="White"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom"
+                                Margin="0,0,10,110" Grid.RowSpan="2">
+                                <Image Source="Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" />
+
+                            </Button>
+                            <StackPanel
+                                Grid.Row="1"
+                                Margin="8 24 8 0">
+                                <TextBlock
+                                    FontWeight="Bold" Text="Lee House"/>
+                                <TextBlock
+                                    TextWrapping="Wrap"
+                                    VerticalAlignment="Center"><Run Text="Sứ mệnh của chúng tôi là tạo ra những thiết kế chỉn chu làm hài lòng và truyền cảm hứng cho khách hàng. Lee House coi trọng chức năng, sự thoải mái và cái đẹp thông qua việc thực hành thiết kế và cách tiếp cận nghệ thuật để sáng tác."/></TextBlock>
+                            </StackPanel>
+                            <StackPanel
+                                HorizontalAlignment="Right"
+                                Grid.Row="2"
+                                Orientation="Horizontal"
+                                Margin="8">
+                                <Button
+                                    Style="{StaticResource MaterialDesignToolButton}"
+                                    Width="30"
+                                    Padding="2 0 2 0"
+                                    materialDesign:RippleAssist.IsCentered="True">
+                                    <materialDesign:PackIcon
+                                        Kind="ShareVariant" />
+                                </Button>
+                                <Button
+                                    Style="{StaticResource MaterialDesignToolButton}"
+                                    Width="30"
+                                    Padding="2 0 2 0"
+                                    materialDesign:RippleAssist.IsCentered="True">
+                                    <materialDesign:PackIcon
+                                        Kind="Heart" />
+                                </Button>
+
+                            </StackPanel>
+                        </Grid>
+                    </materialDesign:Card>
+                    <materialDesign:Card Margin="793,40,51,63">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+                                    Height="140" />
+                                <RowDefinition
+                                    Height="*" />
+                                <RowDefinition
+                                    Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Image
+                                Source="Pictures/Lee Home Land khong nen Logo3.png"
+                                Height="140"
+                                Width="196"
+                                Stretch="Fill" />
+                            <Button
+                                Grid.Row="0"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                                Background="White"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom"
+                                Margin="0,0,11,109" RenderTransformOrigin="1.025,0.525" Grid.RowSpan="2">
+                                <Image Source="Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" />
+
+                            </Button>
+                            <StackPanel
+                                Grid.Row="1"
+                                Margin="8 24 8 0">
+                                <TextBlock
+                                    FontWeight="Bold" Text="Lee Home Land"/>
+                                <TextBlock
+                                    TextWrapping="Wrap"
+                                    VerticalAlignment="Center"><Run Text="Cung cấp sản phẩm và dịch vụ ưu việt, nâng cao giá trị cuộc sống"/></TextBlock>
+                            </StackPanel>
+                            <StackPanel
+                                HorizontalAlignment="Right"
+                                Grid.Row="2"
+                                Orientation="Horizontal"
+                                Margin="8">
+                                <Button
+                                    Style="{StaticResource MaterialDesignToolButton}"
+                                    Width="30"
+                                    Padding="2 0 2 0"
+                                    materialDesign:RippleAssist.IsCentered="True">
+                                    <materialDesign:PackIcon
+                                        Kind="ShareVariant" />
+                                </Button>
+                                <Button
+                                    Style="{StaticResource MaterialDesignToolButton}"
+                                    Width="30"
+                                    Padding="2 0 2 0"
+                                    materialDesign:RippleAssist.IsCentered="True">
+                                    <materialDesign:PackIcon
+                                        Kind="Heart" />
+                                </Button>
+
+                            </StackPanel>
+                        </Grid>
+                    </materialDesign:Card>
+                    <materialDesign:Card Margin="281,40,563,63">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+        Height="140" />
+                                <RowDefinition
+        Height="*" />
+                                <RowDefinition
+        Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Image
+                                Source="/Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" 
+
+      
+      Height="140"
+      Width="196"
+      Stretch="UniformToFill" />
+                            <Button
+      Grid.Row="0"
+      Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+      Background="White"
+      HorizontalAlignment="Right"
+      VerticalAlignment="Bottom"
+      Margin="0 0 16 -20">
+                                <Image Source="/Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" />
+
+                            </Button>
+                            <StackPanel
+      Grid.Row="1"
+      Margin="8 24 8 0">
+                                <TextBlock
+        FontWeight="Bold"><Run Text="Mars House"/></TextBlock>
+                                <TextBlock
+        TextWrapping="Wrap"
+        VerticalAlignment="Center"><Run Text="Chúng tôi hướng tới việc trở thành một trong những sự lựa chọn ưu việt về thiết kế - thi công trọn gói cho các nhà đầu tư."/></TextBlock>
+                            </StackPanel>
+                            <StackPanel
+      HorizontalAlignment="Right"
+      Grid.Row="2"
+      Orientation="Horizontal"
+      Margin="8">
+                                <Button
+        Style="{StaticResource MaterialDesignToolButton}"
+        Width="30"
+        Padding="2 0 2 0"
+        materialDesign:RippleAssist.IsCentered="True">
+                                    <materialDesign:PackIcon
+          Kind="ShareVariant" />
+                                </Button>
+                                <Button
+        Style="{StaticResource MaterialDesignToolButton}"
+        Width="30"
+        Padding="2 0 2 0"
+        materialDesign:RippleAssist.IsCentered="True">
+                                    <materialDesign:PackIcon
+          Kind="Heart" />
+                                </Button>
+
+                            </StackPanel>
+                        </Grid>
+                    </materialDesign:Card>
+
+
+                    <Button x:Name="XemBaoCaoBtn" FontSize="30" Margin="433,365,414,7" Content="Xem báo cáo" Click="XemBaoCaoBtn_Click" Height="Auto"/>
+                    <Grid
+  Width="124"/>
                 </Grid>
             </TabItem>
 
@@ -270,20 +519,22 @@
         <!--     </StackPanel> -->
         <!--     <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10 0"/> -->
         <!-- </Grid> -->
-        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="auto">
-            <Button  x:Name="PreviousBtn" Click="PreviousBtn_clicked" BorderThickness="0" Height="Auto" Padding="0,0,0,0" Margin="40,13,983,-10" >
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="81">
+            <Image  Source="/Pictures/cropped-cropped-Logo-MarsHouse-White-2048x1190-1-2-210x145.png" Stretch="Fill" RenderTransformOrigin="-0.618,0.555" Height="49" VerticalAlignment="Top" Margin="160,10,819,0"/>
+            <Button  x:Name="PreviousBtn" Click="PreviousBtn_clicked" BorderThickness="0" Height="Auto" Padding="0,0,0,0" Margin="15,15,1008,22" >
 
 
-                <materialDesign:PackIcon  Kind="ArrowLeftBoldBox" Height="54" Width="56" />
+                <materialDesign:PackIcon  Kind="ArrowLeftBoldBox" Height="36" Width="36" />
 
 
             </Button>
-            <Button x:Name="NextBtn" Click="NextBtn_clicked" Height="Auto" Padding="0,0,0,0" Margin="986,13,37,-5" BorderThickness="0" >
-                <materialDesign:PackIcon  Kind="ArrowRightBoldBox" Height="54" Width="56" />
+            <Button x:Name="NextBtn" Click="NextBtn_clicked" Height="Auto" Padding="0,0,0,0" Margin="1008,15,15,22" BorderThickness="0" >
+                <materialDesign:PackIcon  Kind="ArrowRightBoldBox" Height="36" Width="36" />
             </Button>
-            <TextBlock Foreground="Black" HorizontalAlignment="Left" TextWrapping="Wrap" Text=" SẢN PHẨM CỦA CÔNG TY CỔ PHẦN CÔNG NGHỆ MARSHOUSE"  TextAlignment="Center" VerticalAlignment="Top" Height="52" Width="648" FontSize="20" FontWeight="Bold" Margin="194,20,0,-10"/>
+            <TextBlock Foreground="Black" HorizontalAlignment="Left" TextWrapping="Wrap" Text=" SẢN PHẨM CỦA CÔNG TY CỔ PHẦN CÔNG NGHỆ MARSHOUSE"  TextAlignment="Center" VerticalAlignment="Top" Height="52" Width="648" FontSize="20" FontWeight="Bold" Margin="244,19,0,0"/>
 
 
         </Grid>
+        <dxe:ImageEdit Width="150"/>
     </StackPanel>
 </Window>

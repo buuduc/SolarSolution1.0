@@ -39,18 +39,22 @@ namespace SolarSolution
             soGionangtxt.Text = $"{SolarCal.sunnyTime} giờ/ngày";
             tuoithotxt.Text = $"{SolarCal.soNam} năm";
             giabantxt.Text= $"{SolarCal.sellforEVN.ToString("0,0", elGR)} VNĐ";
-            tanggiatxt.Text= $"{SolarCal.phantramtanggia.ToString(",0", elGR)} % mỗi năm";
-            suygiam1txt.Text= $"{SolarCal.suygiamcongsuat1.ToString(",0", elGR)} % ";
-            suygiamtxt.Text = $"{SolarCal.suygiamcongsuat.ToString(",0", elGR)} % ";
+            tanggiatxt.Text= $"{SolarCal.phantramtanggia} % mỗi năm";
+            suygiam1txt.Text= $"{SolarCal.suygiamcongsuat1} % ";
+            suygiamtxt.Text = $"{SolarCal.suygiamcongsuat} % ";
+            KWHmonthtxt.Text= $"{(SolarCal.Kwp*SolarCal.sunnyTime*30).ToString("0,0", elGR)} KWh/tháng ";
+            moneyperkwptxt.Text= $"{(SolarCal.ammountMonney /SolarCal.Kwp).ToString("0,0", elGR)} VNĐ/KWp ";
             setRanktable();
             setPricePerRankTable();
             TableWattagePerYears();
             TongDoanhThu();
             setPieChart();
+            baocao();
             // tenkhachhanglb.Text = tenkhachhang;
             // diachilb.Text = diachi;
             // dienkinhdoanhlb.Text = dienkinhdoanh;
         }
+        
         public void setPieChart()
         {
            
@@ -71,7 +75,7 @@ namespace SolarSolution
             {
                 default:
                     {
-                        var list = new List<string> { "Bậc", "Kinh phí (VNĐ)" };
+                        var list = new List<string> { "Bậc", "Kinh phí (VNĐ)", "Công điện sử dụng "};
                         foreach (var VARIABLE in list)
                         {
                             var cell = new XRTableCell() { Text = VARIABLE };
@@ -87,6 +91,9 @@ namespace SolarSolution
                             var cell2 = new XRTableCell();
                             cell2.Text = $"{k.Value.usedPrice.ToString("0,0", elGR)}";
                             row.Cells.Add(cell2);
+                            var cell3 = new XRTableCell();
+                            cell3.Text = $"{k.Value.UsedWork.ToString("0,0", elGR)}";
+                            row.Cells.Add(cell3);
                             PricePerRanktb.Rows.Add(row);
                         }
 
@@ -195,7 +202,20 @@ namespace SolarSolution
             //    xrTable1.Rows.Add(row);
             //}
         }
+        public void baocao()
+        {
+            xrTableCell11.Text = Math.Round(SolarCal.doanhthuList[1].SanLuong, 0).ToString("0,0", elGR);
+            xrTableCell14.Text = Math.Round(SolarCal.doanhthuList[1].DoanhThu, 0).ToString("0,0", elGR);
+            xrTableCell17.Text = Math.Round(SolarCal.TongDoanhThu, 0).ToString("0,0", elGR);
+            xrTableCell20.Text = $"{Math.Round(SolarCal.ammountMonney / SolarCal.doanhthuList[1].DoanhThu, 2)}";
+            xrTableCell32.Text=Math.Round(SolarCal.ammountMonney, 0).ToString("0,0", elGR);
+            xrTableCell35.Text = Math.Round(0.3*SolarCal.ammountMonney, 0).ToString("0,0", elGR);
+            xrTableCell29.Text = Math.Round(1.3 * SolarCal.ammountMonney, 0).ToString("0,0", elGR);
+            xrTableCell23.Text= Math.Round(((SolarCal.TongDoanhThu / 25) / (1.3*SolarCal.ammountMonney)) * 100 , 1).ToString("0,0", elGR);
+            xrTableCell38.Text = Math.Round(SolarCal.TongDoanhThu-1.3 * SolarCal.ammountMonney, 0).ToString("0,0", elGR);
+            xrTableCell41.Text = Math.Round(SolarCal.doanhthuList[1].SanLuong * 0.8154 / 1000, 0).ToString("0,0", elGR);
 
+        }
         void TongDoanhThu()
         {
             TongDoanhThutxt.Text =

@@ -25,6 +25,7 @@ namespace SolarSolution
         // }
         public SortedList<object, rankElectricWork> rankElectricWorkList = new SortedList<object, rankElectricWork>();
         public double consumeMonth = 0;
+        public NormalConsume() { }
         public NormalConsume(double consumeMonth)
         {
             this.consumeMonth = consumeMonth;
@@ -34,9 +35,9 @@ namespace SolarSolution
 
         }
 
-        private double Athapdiem;
-        private double Atrungbinh;
-        private double Acaodiem;
+        public  double Athapdiem;
+        public double Atrungbinh;
+        public double Acaodiem;
 
         public NormalConsume(double Athapdiem, double Atrungbinh, double Acaodiem)
         {
@@ -104,15 +105,18 @@ namespace SolarSolution
                 {
                     E.usedPrice = currentConsume;
                     currentConsume = 0;
+                    rankElectricWorkList[i] = E;
+
                     break;
                 }
                 else
                 {
                     currentConsume -= moneyEachRank;
                     E.usedPrice = moneyEachRank;
+                    rankElectricWorkList[i] = E;
                 }
 
-                rankElectricWorkList[i] = E;
+                
 
 
 
